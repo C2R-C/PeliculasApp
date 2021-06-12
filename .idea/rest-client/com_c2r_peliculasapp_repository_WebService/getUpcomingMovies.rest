@@ -1,0 +1,29 @@
+GET
+{BASE_URL}/movie/upcoming
+&api_key=87f0ab57247435dcf76b92b2b54603f1
+
+
+
+
+%%%
+# Duration: 494 ms
+# GET
+# https://api.themoviedb.org/3//movie/upcoming?&api_key=87f0ab57247435dcf76b92b2b54603f1
+
+
+# status 404
+
+@content-type: application/json;charset=utf-8
+@content-length: 100
+@date: Thu, 10 Jun 2021 03:26:49 GMT
+@server: openresty
+@access-control-allow-origin: *
+@access-control-allow-methods: GET, HEAD, POST, PUT, DELETE, OPTIONS
+@access-control-expose-headers: ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After, Content-Length, Content-Range
+@etag: c6ae201de4710990e66f7d8f767410f7
+@x-cache: Error from cloudfront
+@via: 1.1 2fe3b10bc3da6ef618e3ab1598c2020d.cloudfront.net (CloudFront)
+@x-amz-cf-pop: BOG50-C1
+@x-amz-cf-id: wEIl50lff0lsGSjbq1H6F1_EJfkTLDc52EjdJyyfxSh4EUJH75-Jjw==
+
+{"status_code":34,"status_message":"The resource you requested could not be found.","success":false}

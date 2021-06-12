@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MovieDetailFragment">
+    tools:context=".ui.moviedetails.MovieDetailFragment">
 
     <FrameLayout
         android:id="@+id/frameLayout"
@@ -23,10 +23,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@drawable/gradient" />
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
 
     </FrameLayout>
 
@@ -48,7 +44,6 @@
             android:scaleType="centerCrop"
             android:src="@mipmap/ic_launcher" />
 
-
     </androidx.cardview.widget.CardView>
 
     <androidx.constraintlayout.widget.Guideline
@@ -59,7 +54,7 @@
         app:layout_constraintGuide_begin="333dp" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/txt_movie_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-black"
@@ -74,7 +69,7 @@
         tools:text="Movie Title" />
 
     <TextView
-        android:id="@+id/txt_raiting"
+        android:id="@+id/txt_rating"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:drawablePadding="8dp"
@@ -98,8 +93,9 @@
         app:drawableTint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/cardView"
-        app:layout_constraintTop_toBottomOf="@+id/txt_raiting"
+        app:layout_constraintTop_toBottomOf="@+id/txt_rating"
         tools:text="Released 16-04-1978" />
+
 
     <TextView
         android:id="@+id/txt_language"
@@ -162,6 +158,7 @@
 
     </LinearLayout>
 
+
     <LinearLayout
         android:id="@+id/linearLayout2"
         android:layout_width="wrap_content"
@@ -186,7 +183,7 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="16dp"
@@ -206,5 +203,7 @@
         android:text="En esos momentos en que la vida se vuelve insoportable, cuando te sientas solo con las manos en la cabeza y piensas, ¿dónde está Dios ahora? Las lágrimas se derramaban por tus mejillas. Acabas de perder tu trabajo. Acabas de perder un amigo. Has tenido un día muy duro. Quizás has tenido un largo periodo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

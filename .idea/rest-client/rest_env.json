@@ -1,0 +1,9 @@
+{
+  "dev": {
+    "BASE_URL": "https://api.themoviedb.org/3/",
+    "headers": {
+      
+    },
+    "api_key=": "87f0ab57247435dcf76b92b2b54603f1"
+  }
+}

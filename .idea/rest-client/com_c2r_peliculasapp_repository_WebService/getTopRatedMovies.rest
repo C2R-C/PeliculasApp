@@ -1,0 +1,29 @@
+GET
+{BASE_URL}/movie/top_rated
+&api_key=87f0ab57247435dcf76b92b2b54603f1
+
+
+
+
+%%%
+# Duration: 1068 ms
+# GET
+# https://api.themoviedb.org/3//movie/top_rated?&api_key=87f0ab57247435dcf76b92b2b54603f1
+
+
+# status 404
+
+@content-type: application/json;charset=utf-8
+@content-length: 100
+@date: Thu, 10 Jun 2021 03:27:30 GMT
+@server: openresty
+@access-control-allow-origin: *
+@access-control-allow-methods: GET, HEAD, POST, PUT, DELETE, OPTIONS
+@access-control-expose-headers: ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After, Content-Length, Content-Range
+@etag: c6ae201de4710990e66f7d8f767410f7
+@x-cache: Error from cloudfront
+@via: 1.1 37d1a42ef2c37b938204ae53f19c4813.cloudfront.net (CloudFront)
+@x-amz-cf-pop: BOG50-C1
+@x-amz-cf-id: HlzK1FD5O1jyqCPYPtwdOLV1QLmkUK8tgQUowp6cWsCEA7HE8_GCfA==
+
+{"status_code":34,"status_message":"The resource you requested could not be found.","success":false}
