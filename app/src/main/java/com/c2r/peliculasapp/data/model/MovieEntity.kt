@@ -35,5 +35,7 @@ data class MovieEntity(
     @ColumnInfo(name = "vote_average")
     val vote_average: Double = -1.0,
     @ColumnInfo(name = "vote_count")
-    val vote_count: Int = -1
+    val vote_count: Int = -1,
+    @ColumnInfo(name = "movie_type")
+    val movie_type: String = ""
 )

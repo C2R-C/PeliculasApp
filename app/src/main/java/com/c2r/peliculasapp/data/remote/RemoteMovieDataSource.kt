@@ -4,7 +4,7 @@ import com.c2r.peliculasapp.application.AppConstants
 import com.c2r.peliculasapp.data.model.MovieList
 import com.c2r.peliculasapp.repository.WebService
 
-class MovieDataSource(private val webService: WebService) {
+class RemoteMovieDataSource(private val webService: WebService) {
 
     suspend fun getUpcomingMovies(): MovieList = webService.getUpcomingMovies(AppConstants.API_KEY)
 
