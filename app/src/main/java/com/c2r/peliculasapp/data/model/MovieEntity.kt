@@ -15,7 +15,7 @@ data class MovieEntity(
     @ColumnInfo(name = "adult")
     val adult: Boolean = false,
     @ColumnInfo(name = "backdrop_path")
-    val backdrop_path: String = "",
+    val backdrop_path: String? = null,
     @ColumnInfo(name = "original_language")
     val original_language: String = "",
     @ColumnInfo(name = "original_title")

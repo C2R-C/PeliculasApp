@@ -3,7 +3,7 @@ package com.c2r.peliculasapp.data.model
 data class Movie(
     val id: Int = -1,
     val adult: Boolean = false,
-    val backdrop_path: String = "",
+    val backdrop_path: String? = null,
     val original_language: String = "",
     val original_title: String = "",
     val overview: String = "",

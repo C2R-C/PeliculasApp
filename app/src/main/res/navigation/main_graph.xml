@@ -24,7 +24,8 @@
             app:argType="string" />
         <argument
             android:name="backgroundImageUrl"
-            app:argType="string" />
+            app:argType="string"
+            app:nullable="true" />
         <argument
             android:name="title"
             app:argType="string" />
